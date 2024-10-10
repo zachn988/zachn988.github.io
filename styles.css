@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+table {
+  width: 100%;
+}
+
+
+.head_link {
+  color: white;
+  font-size: large;
+}
+.index {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+.navigation {
+  display: inline-block;
+  text-align: left;
+}
+.main {
+  display: inline-block;
+  text-align: center;
+}
