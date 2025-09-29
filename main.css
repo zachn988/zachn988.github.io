@@ -1,0 +1,65 @@
+html {
+    font-size:22px
+}
+body {
+    background: url(./Assets/pattern.png) fixed;
+    opacity: 94%;
+    color: whitesmoke;
+    text-align: center;
+    image-rendering: crisp-edges;
+}
+header {
+    font-size: 50px;
+}
+hr {
+    color:rgba(62, 62, 62, 0.75);
+    margin-left: 50px;
+}
+footer {
+    background-color: rgba(62, 62, 62, 0.75);
+}
+.footer {
+    opacity: 100%;
+}
+.container {
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.content {
+    border: solid #333 2px;
+    position: relative;
+    background-color: rgb(251, 229, 121);
+    color: #333;
+    filter: drop-shadow(5px 5px);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.post {
+    padding: 20px;
+    margin: 5px;
+}
+.post h4 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.post h6 {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.post p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.nav {
+    border: dashed #333;
+    border-right-width: 2px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
