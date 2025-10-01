@@ -1,9 +1,16 @@
 html {
     font-size:22px
 }
+a {
+    color: #d4783a;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
 body {
     background: url(./Assets/pattern.png) fixed;
-    opacity: 94%;
+    background-size: 500px 500px;
     color: whitesmoke;
     text-align: center;
     image-rendering: crisp-edges;
@@ -11,15 +18,20 @@ body {
 header {
     font-size: 50px;
 }
+.headshot {
+    width: 158px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    border: solid #333 3px;
+}
 hr {
     color:rgba(62, 62, 62, 0.75);
     margin-left: 50px;
 }
 footer {
     background-color: rgba(62, 62, 62, 0.75);
-}
-.footer {
-    opacity: 100%;
 }
 .container {
     max-width: 1200px;
@@ -29,12 +41,25 @@ footer {
 .content {
     border: solid #333 2px;
     position: relative;
-    background-color: rgb(251, 229, 121);
+    background-color: rgb(251, 229, 121, 0.94);
     color: #333;
     filter: drop-shadow(5px 5px);
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 5fr;
+}
+.current {
+    color: #ba639d;
+}
+.current:hover {
+    text-decoration: none;
+}
+.default {
+    color: #333;
+    text-decoration: none;
+}
+.about {
+    margin-right: 250px;
 }
 .post {
     padding: 20px;
@@ -55,11 +80,31 @@ footer {
     margin-top: 5px;
 }
 .nav {
+    text-align: left;
     border: dashed #333;
     border-right-width: 2px;
     border-left-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 50px;
+}
+.nav a {
+    font-family: "Courier Prime";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+/* Fonts */
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  display: inline;
+  font-size: 0.75em;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
 }
