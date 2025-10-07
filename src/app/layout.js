@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './layout.module.css';
+import './global.css';
 import Home from "./page.js";
 
 
@@ -11,35 +11,35 @@ export default function RootLayout({ children }) {
         <meta name="description" content="My personal portfolio on NextJS and Github Pages"></meta>        
         
     </head>
-    <body className={styles.body}>
-        <header className={styles.header}>Hello</header>
-        <div className={styles.content}>
-            <div className={styles.navigation}>
-                <div className={styles.nav_title}>
+    <body>
+        <header>Hello</header>
+        <div className="content">
+            <div className="navigation">
+                <div className="nav_title">
                     Navigation
                 </div>
-                <div className={styles.nav_links}>
-                    <Link href="/home" className={styles.a}>Home</Link><br></br>
-                    <Link href="" className={styles.a}>About Me</Link><br></br>
-                    <Link href="" className={styles.a}>Projects</Link><br></br>
-                    <Link href="" className={styles.a}>Blog</Link><br></br>
-                    <Link href="" className={styles.a}>Contact</Link><br></br>
-                    <Link href="" className={styles.a}>Template</Link><br></br>
+                <div className="nav_links">
+                    <Link href="/home">Home</Link><br></br>
+                    <Link href="">About Me</Link><br></br>
+                    <Link href="">Projects</Link><br></br>
+                    <Link href="">Blog</Link><br></br>
+                    <Link href="">Contact</Link><br></br>
+                    <Link href="">Template</Link><br></br>
                 </div>
-                <div className={styles.suggested}>
-                    <div className={styles.nav_title}>
+                <div className="suggested">
+                    <div className="nav_title">
                         Recent Posts
                     </div>
-                    <div className={styles.nav_links}>
-                        <Link href="" className={styles.a}>Canto 1</Link>
-                        <p className={styles.empty}>empty</p>
-                        <h6 className={styles.h6}>Sept 29 2025</h6>
+                    <div className="nav_links">
+                        <Link href="">Canto 1</Link>
+                        <p className="empty">empty</p>
+                        <h6>Sept 29 2025</h6>
                     </div>
 
                 </div>
             </div>
-            <div className={styles.center}>
-                <div className={styles.center_title}>
+            <div className="center">
+                <div className="center_title">
                     Home
                 </div>
                 <Home></Home>

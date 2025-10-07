@@ -1,15 +1,14 @@
-import RootLayout from "./layout.js";
-import styles from "./page.module.css";
+import "./global.css";
 
 export default function Home() {
   return <div>
     <div>
-        <div className={styles.address_bar}>
-            <p className={styles.address}>Address</p>
-            <p className={styles.links}>Blog &gt; Inferno &gt; Canto 1</p>
+        <div className="address_bar">
+            <p className="address">Address</p>
+            <p className="links">Blog &gt; Inferno &gt; Canto 1</p>
         </div>
-        <div className={styles.post_border}>
-            <p className={styles.post}>
+        <div className="post_border">
+            <p className="post">
                 September 29 2025 <br></br><br></br>
                 In the middle of the journey of our life I came to myself in a dark wood where the
                 straight way was lost. Ah! how hard a thing it is to tell what a wild,
@@ -18,13 +17,13 @@ export default function Home() {
                 to treat of the good that I ...
             </p>
         </div>
-        <hr className={styles.hr}></hr>
-        <div className={styles.address_bar}>
-            <p className={styles.address}>Address</p>
-            <p className={styles.links}>Blog &gt; Inferno &gt; Canto 1</p>
+        <hr></hr>
+        <div className="address_bar">
+            <p className="address">Address</p>
+            <p className="links">Blog &gt; Inferno &gt; Canto 1</p>
         </div>
-        <div className={styles.post_border}>
-            <p className={styles.post}>
+        <div className="post_border">
+            <p className="post">
                 September 29 2025 <br></br><br></br>
                 In the middle of the journey of our life I came to myself in a dark wood where the
                 straight way was lost. Ah! how hard a thing it is to tell what a wild,
