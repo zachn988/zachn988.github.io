@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Levi Windows";
+    src: url("/Windows Regular.ttf"), format(TTF);
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+    background-color: #c0c0c0;
+    border-color: #2b3636;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+body {
+    background: #008080;
+    margin: 0px;
+    font-family: "Levi Windows";
+}
+
+h6 {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-indent: 10px;
+}
+a {
+    text-align: left;
+    font-size: 16px;
+    color: #0000ee;
+    padding: 3px;
+    margin-top: 10px;
+    border-top: #cdcdcd solid 3px;
+    border-right: #cdcdcd solid 3px;
+    border-bottom: #9b9b9b solid 3px;
+    border-left: #9b9b9b solid 3px; 
+}
+a:hover {
+    text-decoration: none;   
+}
+a:active {
+    border-bottom: #cdcdcd solid 3px;
+    border-left: #cdcdcd solid 3px;
+    border-top: #9b9b9b solid 3px;
+    border-right: #9b9b9b solid 3px;
+    color: rgb(220, 0, 0); 
+}
+
+
+/* Classes */
+.center {
+    background-color: #c0c0c0;
+    margin: 20px 200px 0px 20px;
+    border-right-color: #2b3636;
+    border-bottom-color: #2b3636;
+    border-left-color: #e4e5e7;
+    border-top-color: #e4e5e7;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+}
+.center_title {
+    background: #090979;
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    padding: 5px;
+    color: whitesmoke;
+
+}
+.content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.empty {
+    line-height: 2px;
+    font-size: 1px;
+    color: rgba(0,0,0,0);
+}
+.nav_title {
+    background: #090979;
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    margin: 20px 0px 0px 200px;
+    padding: 5px;
+    color: whitesmoke;
+    border-top-color: #e4e5e7;
+    border-left-color: #e4e5e7;
+    border-right-color: #2b3636;
+    border-style: solid;
+    border-width: 3px 3px 0px 3px;
+}
+.nav_links {
+    line-height: 34px;
+    font-size: 1.2em;
+    background-color: #c0c0c0;
+    margin: 0px 0px 20px 200px;
+    padding: 20px;
+    border-right-color: #2b3636;
+    border-bottom-color: #2b3636;
+    border-left-color: #e4e5e7;
+    border-style: solid;
+    border-width: 0px 3px 3px 3px;
+}
+.recent_title {
+    margin-bottom: 0px;
+}
