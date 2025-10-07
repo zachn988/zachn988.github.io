@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import './layout.css';
-import Home from "./page.js";
+
 
 export default function RootLayout({ children }) {
   return <html lang="en">
