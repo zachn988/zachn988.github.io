@@ -3,7 +3,7 @@
     src: url("/Windows Regular.ttf"), format(TTF);
 }
 
-header {
+.header {
     font-size: 25px;
     text-align: center;
     background-color: #c0c0c0;
@@ -12,18 +12,18 @@ header {
     border-style: solid;
     margin-bottom: 40px;
 }
-body {
+.body {
     background: #008080;
     margin: 0px;
     font-family: "Levi Windows";
 }
 
-h6 {
+.h6 {
     margin-top: 0px;
     padding-top: 0px;
     text-indent: 10px;
 }
-a {
+.a {
     text-align: left;
     font-size: 16px;
     color: #0000ee;
@@ -34,10 +34,10 @@ a {
     border-bottom: #9b9b9b solid 3px;
     border-left: #9b9b9b solid 3px; 
 }
-a:hover {
+.a:hover {
     text-decoration: none;   
 }
-a:active {
+.a:active {
     border-bottom: #cdcdcd solid 3px;
     border-left: #cdcdcd solid 3px;
     border-top: #9b9b9b solid 3px;
