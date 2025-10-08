@@ -11,6 +11,19 @@
 /* Layout classes */
 
 a {
+    color: #0000ee;
+}
+a:hover {
+        text-decoration: none;   
+}
+a:active {
+    color: rgb(220, 0, 0);
+}
+p {
+    margin: 0.4em 0em 0.5em 0em;
+}
+
+.button_link {
     text-align: left;
     font-size: 16px;
     color: #0000ee;
@@ -21,10 +34,10 @@ a {
     border-bottom: #9b9b9b solid 3px;
     border-left: #9b9b9b solid 3px; 
 }
-a:hover {
+.button_link:hover {
     text-decoration: none;   
 }
-a:active {
+.button_link:active {
     border-bottom: #cdcdcd solid 3px;
     border-left: #cdcdcd solid 3px;
     border-top: #9b9b9b solid 3px;
@@ -46,7 +59,7 @@ body {
     margin: 0px;
     font-family: "Levi Windows";
 }
-hr {
+.post_divider_hr {
     margin: 15px;
 }
 h6 {

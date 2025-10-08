@@ -17,7 +17,7 @@ export default function Home() {
                 to treat of the good that I ...
             </p>
         </div>
-        <hr></hr>
+        <hr className="post_divider_hr"></hr>
         <div className="address_bar">
             <p className="address">Address</p>
             <p className="links">Blog &gt; Inferno &gt; Canto 1</p>
