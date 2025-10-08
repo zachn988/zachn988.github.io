@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import './layout.css';
+import '../styles/global.css';
+import Home from "./page.js";
 
 
 export default function RootLayout({ children }) {
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
                         Recent Posts
                     </div>
                     <div className="nav_links">
-                        <Link href="" className="recent_title">Canto 1</Link>
+                        <Link href="">Canto 1</Link>
                         <p className="empty">empty</p>
                         <h6>Sept 29 2025</h6>
                     </div>
@@ -41,7 +42,7 @@ export default function RootLayout({ children }) {
                 <div className="center_title">
                     Home
                 </div>
-                <div>{ children }</div>
+                <Home></Home>
             </div>
             
         </div>

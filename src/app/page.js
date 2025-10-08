@@ -1,5 +1,4 @@
-import RootLayout from "./layout.js";
-import "./page.css";
+import "../styles/global.css";
 
 export default function Home() {
   return <div>
