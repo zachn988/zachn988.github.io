@@ -1,14 +1,13 @@
+import Link from 'next/link';
 import styles from "@/styles/about.module.css";
 import "@/styles/global.css";
 
 export default function about() {
-    return <div className={styles.wiki}>
-        <div className={styles.address_master}>
+    return <div>
             <div className="address_bar">
-                <p className="address">Address</p>
-                <p className="links">About Me</p>
+            <div className="address"><p className="address_line"></p><p className="address_word">Address</p></div>
+            <p className="links">About Me</p>
             </div>
-        </div>
         <div className="post_border">
             <div className="post">
                 <h2 className={styles.name_header}>Zachary Nalepa</h2>
