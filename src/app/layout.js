@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import '../styles/global.css';
+import '@/styles/global.css';
 import Home from "./page.js";
 
 
@@ -12,26 +12,28 @@ export default function RootLayout({ children }) {
         
     </head>
     <body>
-        <header>Hello</header>
+        <header>
+            Hello
+        </header>
         <div className="content">
             <div className="navigation">
                 <div className="nav_title">
                     Navigation
                 </div>
                 <div className="nav_links">
-                    <Link href="/home">Home</Link><br></br>
-                    <Link href="">About Me</Link><br></br>
-                    <Link href="">Projects</Link><br></br>
-                    <Link href="">Blog</Link><br></br>
-                    <Link href="">Contact</Link><br></br>
-                    <Link href="">Template</Link><br></br>
+                    <Link href="/" className="button_link">Home</Link>
+                    <Link href="/about" className="button_link">About Me</Link>
+                    <Link href="" className="button_link">Projects</Link>
+                    <Link href="" className="button_link">Blog</Link>
+                    <Link href="" className="button_link">Contact</Link>
+                    <Link href="" className="button_link">Template</Link>   
                 </div>
                 <div className="suggested">
                     <div className="nav_title">
                         Recent Posts
                     </div>
                     <div className="nav_links">
-                        <Link href="">Canto 1</Link>
+                        <Link href="" className="button_link">Canto 1</Link>
                         <p className="empty">empty</p>
                         <h6>Sept 29 2025</h6>
                     </div>
@@ -40,9 +42,16 @@ export default function RootLayout({ children }) {
             </div>
             <div className="center">
                 <div className="center_title">
-                    Home
+                    Browser
                 </div>
-                <Home></Home>
+                <div>{ children }</div>
+            </div>
+            <div></div>
+            <div className="lorem">
+                <p className="font_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p className="font_2">Labore, ea officiis. Unde, reprehenderit incidunt.</p> 
+                <p className="font_3">Iusto earum, suscipit hic laborum soluta adipisci dolore</p>
+                <p className="font_4">veritatis voluptatum odio quis necessitatibus maxime, nostrum distinctio.</p>
             </div>
             
         </div>
