@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
                     <Link href="/" className="button_link">Home</Link>
                     <Link href="/about" className="button_link">About Me</Link>
                     <Link href="" className="button_link">Projects</Link>
-                    <Link href="" className="button_link">Blog</Link>
+                    <Link href="/blog" className="button_link">Blog</Link>
                     <Link href="" className="button_link">Contact</Link>
                     <Link href="" className="button_link">Template</Link>   
                 </div>
