@@ -1,0 +1,102 @@
+/* FONTS */
+@font-face {
+    font-family: "Levi Windows";
+    src: url("/WindowsRegular.ttf"), format(TTF);
+}
+.font_1 {
+    font-family: "Levi Windows";
+}
+.font_2 {
+    font-family: "Trebuchet MS";
+}
+.font_3 {
+    font-family: "Arial";
+}
+
+.address_bar {
+    background-color: #c0c0c0;
+    margin-left:2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    padding: 1px;
+    display: inline;
+    display: flex;
+    /* grid-template-columns: 1fr 10fr; */
+    box-shadow: inset 2px 2px #fff, inset -2px -2px grey;
+    border-bottom: #fff solid 1px;
+}
+.address {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-bottom: 0px; 
+}
+.address_line {
+    align-items: center;
+    width: 4px;
+    height:70%;
+    box-shadow: inset -1px -1px #565656, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+
+}
+.address_word {
+    margin: 0px;
+}
+.links {
+    flex-grow: 10;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    border-top: #4c4c4c solid 3px;
+    border-right: #cdcdcd solid 3px;
+    border-bottom: #9b9b9b solid 3px;
+    border-left: #4c4c4c solid 3px; 
+    background-color: whitesmoke
+}
+.post_border {
+    background-color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 0px;
+    border-top-color: #4c4c4c;
+    border-right-color: #dcdcdc;
+    border-left-color: #4c4c4c;
+    border-bottom-color: #9b9b9b;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+
+.blog_body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.blog_explorer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.explorer_link {
+    text-indent: 15px;
+}
+
+.page_picker {
+    background-color: white;
+}
+.page_content {
+    background-color: white;
+}
