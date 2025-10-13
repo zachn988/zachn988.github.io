@@ -1,14 +1,13 @@
 import Link from "next/link"
 import styles from '@/styles/blog_page.module.css';
 
-export default function Blog() {
+export default function Article() {
     return <div>
-        {/* This page will hold some random blog post for now. */}
         <div className={styles.address_bar}>
             <div className={styles.address}><p className={styles.address_line}></p><p className={styles.address_word}>Address</p></div>
             <p className={styles.links}><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link></p>
         </div>
-        <div class={styles.post_border}>
+        <div className={styles.post_border}>
             <p className={styles.post_title}>My Personal Website</p>
             <p className={styles.post_paragraph}>
             I&apos;m building this website as a home for me and my projects on the internet. I&apos;m not the
@@ -29,6 +28,5 @@ export default function Blog() {
             dev logs 3 to the <Link href="/blog/website/10-06-25">most recent log.</Link></p>
             <p className={styles.post_paragraph}>This post was last updated Oct. 13 2025</p>
         </div>
-
     </div>
 }

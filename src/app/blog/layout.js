@@ -9,22 +9,26 @@ export default function BlogLayout({ children }) {
         </div>
         <div className={styles.blog_body}>
         <div className="post_border">
-            <div>&gt;ProjectName</div>
+            <div>&gt;Personal Website</div>
             <div className={styles.blog_explorer}>
+                <Link href="/blog/website/10-06-25" className={styles.explorer_link} id="project1_child">
+                Dev Log 2</Link>
                 <Link href="/blog/website/10-01-25" className={styles.explorer_link} id="project1_child">
-                Dev Log Day 2</Link>
-                <Link href="/blog/10-01-25" className={styles.explorer_link} id="project1_child">
-                Dev Log Day 3</Link>
+                Dev Log 1</Link>
+                
             </div>
-            <div>&gt;ProjectName2</div>
+            <div>&gt;DummyProjectName</div>
             <div className={styles.blog_explorer}>
-                <Link href="/blog/10-01-25" className={styles.explorer_link} id="project1_child">
-                Dev Log Day 2</Link>
-                <Link href="/blog/10-01-25" className={styles.explorer_link} id="project1_child">
-                Dev Log Day 3</Link>
+                <Link href="/blog" className={styles.explorer_link} id="project1_child">
+                Dev Log 2</Link>
+                <Link href="/blog/" className={styles.explorer_link} id="project1_child">
+                Dev Log 1</Link>
+                
             </div>
         </div>
-        <div className="post_border">{ children }</div>
+        <div>
+        <div>{ children }</div>
+        </div>
         </div>
     </div>
 }

@@ -23,19 +23,20 @@ export default function RootLayout({ children }) {
                 <div className="nav_links">
                     <Link href="/" className="button_link">Home</Link>
                     <Link href="/about" className="button_link">About Me</Link>
-                    <Link href="" className="button_link">Projects</Link>
+                    <Link href="/projects" className="button_link">Projects</Link>
                     <Link href="/blog" className="button_link">Blog</Link>
-                    <Link href="" className="button_link">Contact</Link>
-                    <Link href="" className="button_link">Template</Link>   
+                    <Link href="/contact" className="button_link">Contact</Link>
+                    <Link href="/template" className="button_link">Template</Link>   
                 </div>
                 <div className="suggested">
                     <div className="nav_title">
                         Recent Posts
                     </div>
                     <div className="nav_links">
-                        <Link href="" className="button_link">Canto 1</Link>
-                        <p className="empty">empty</p>
-                        <h6>Sept 29 2025</h6>
+                        <Link href="/blog/website/10-06-25">Website Dev Log 2</Link>
+                        <h6>Oct. 06 2025</h6>
+                        <Link href="/blog/website/10-01-25">Website Dev Log 1</Link>
+                        <h6>Oct. 01 2025</h6>
                     </div>
 
                 </div>
