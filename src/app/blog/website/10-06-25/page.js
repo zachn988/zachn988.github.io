@@ -7,7 +7,7 @@ export default function Article() {
             <div className={styles.address}><p className={styles.address_line}></p><p className={styles.address_word}>Address</p></div>
             <p className={styles.links}><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link> &gt; <Link href="/">Dev Log 2</Link></p>
         </div>
-        <div class={styles.post_border}>
+        <div className={styles.post_border}>
             <p className={styles.post_title}>Dev Log 2, day 3 of work. Oct 06, 2025</p>
 
             <p className={styles.post_paragraph}>Before I get started, I have some ideas about the final look of the website.
