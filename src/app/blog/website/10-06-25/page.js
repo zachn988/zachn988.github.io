@@ -19,7 +19,7 @@ export default function Article() {
                 For now, I think I&apos;ll have to manually create each blog page. Unfortunate, but I just want the bones.
                 Later, I&apos;ll look into generating them with javascript or something. I don&apos;t want to host a webserver for this,
                 so react and spring are out of the question. I&apos;ll look into the options and figure something out.</p>
-            <p className={styles.post_paragraph}>So, about the blog homepage, the current structure is h4 "post title" then h6 "date" below that, and then the first three lines
+            <p className={styles.post_paragraph}>So, about the blog homepage, the current structure is h4 &quot;post title&quot; then h6 &quot;date&quot; below that, and then the first three lines
                 of the blog post, punctuated with an elipses at the end to suggest continuation of the post. Might think about changing that later, too.</p>
             <p className={styles.post_paragraph}>I have the bones of the blog homepage now. Post titles share the same link coloring as the rest of the site. The whole div containing the
                 post is an anchor pointing to the specific blog post.</p>
@@ -36,7 +36,7 @@ export default function Article() {
                 translucent look, but, like I also said, this would take some time and require lots of refactoring. I already need to clean up my CSS styles,
                 so a massive overhaul isn&apos;t in the cards within the near future. About more specific elements: </p>
             <p className={styles.post_paragraph}>I want the header on the home page to be a marquee of hello or welcome but in different languages, and maybe in different fonts for fun.</p>
-            <p className={styles.post_paragraph}>I need to write some javascript to generate the "suggested" section of the nav bar so I don&apos;t have to update it manually, on every page.</p>
+            <p className={styles.post_paragraph}>I need to write some javascript to generate the &quot;suggested&quot; section of the nav bar so I don&apos;t have to update it manually, on every page.</p>
             <p className={styles.post_paragraph}>I want to look at some fonts for paragraphs. I like the courier prime monospace font for links, but I want something else for paragraphs specifically.</p>
             <p className={styles.post_paragraph}>Right now, the homepage shows Canto 1 from Dante Alighieri&apos;s Inferno, as a placeholder for a blog post, but since I have the suggested post section,
                 I may not need to show posts in the main space of the page. I may have to write some about past projects and put that on the homepage. Idk, might need

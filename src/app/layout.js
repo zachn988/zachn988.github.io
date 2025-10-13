@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import '@/styles/global.css';
-import Home from "./page.js";
 
 
 export default function RootLayout({ children }) {

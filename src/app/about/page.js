@@ -29,7 +29,7 @@ export default function about() {
                     Java web development ecosystem, using Maven and Spring to build websockets and API endpoints, as well as Spring&aposs Apache
                     database and Java Database Connector.</p>
                     <p>Zachary is still learning new things and using his skills. You can see his projects at his <a href="https://github.com/zachn988">
-                    Github</a> and projects page <a href="/projects">here</a>.
+                    Github</a> and projects page <Link href="/projects">here</Link>.
                     </p>
                     </div>
                     <div className={styles.headshot_border}>
