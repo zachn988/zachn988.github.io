@@ -8,7 +8,7 @@ export default function Blog() {
             <div className={styles.address}><p className={styles.address_line}></p><p className={styles.address_word}>Address</p></div>
             <p className={styles.links}><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link></p>
         </div>
-        <div class={styles.post_border}>
+        <div className={styles.post_border}>
             <p className={styles.post_title}>My Personal Website</p>
             <p className={styles.post_paragraph}>
             I&apos;m building this website as a home for me and my projects on the internet. I&apos;m not the

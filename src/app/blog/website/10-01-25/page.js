@@ -7,7 +7,7 @@ export default function Article() {
             <div className={styles.address}><p className={styles.address_line}></p><p className={styles.address_word}>Address</p></div>
             <p className={styles.links}><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link> &gt; <Link href="/">Dev Log 1</Link></p>
         </div>
-        <div class={styles.post_border}>
+        <div className={styles.post_border}>
             <p className={styles.post_title}>Day 2 of working on my personal website. Oct 01 2025</p>
 
             <p className={styles.post_paragraph}>Starting with nav links on the home page, trying to find a color set that I like.
