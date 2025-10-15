@@ -32,10 +32,10 @@ export default function RootLayout({ children }) {
                         Recent Posts
                     </div>
                     <div className="nav_links">
-                        <Link href="/blog/website/10-06-25">Website Dev Log 2</Link>
-                        <h6>Oct. 06 2025</h6>
-                        <Link href="/blog/website/10-01-25">Website Dev Log 1</Link>
-                        <h6>Oct. 01 2025</h6>
+                        <Link href="/blog/website/10-13-25">Website Dev Log 6</Link>
+                        <h6>Oct. 13 2025</h6>
+                        <Link href="/blog/website/10-09-25">Website Dev Log 5</Link>
+                        <h6>Oct. 09 2025</h6>
                     </div>
 
                 </div>
