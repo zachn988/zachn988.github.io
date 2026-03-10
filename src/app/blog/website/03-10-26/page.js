@@ -23,9 +23,9 @@ export default function Article() {
                 </li>
                 <li>Improve the look of the blog homepage, along with making project sections in the blog nav collapseable.
                 Also research any possible solution or alternative to manually editing layout files to update or add most recent posts.
-                Website will remain static, so I'll probably have to write a python script.
+                Website will remain static, so I&apos;ll probably have to write a python script.
                 </li>
-                <li>Possibly cap the length of posts and nav for blog pages with overflow scrolling. I'll have to figure out scroll bar styling
+                <li>Possibly cap the length of posts and nav for blog pages with overflow scrolling. I&apos;ll have to figure out scroll bar styling
                 to match the website design.
                 </li>
                 <li>Finish projects page. Will have to brainstorm ideas for the final look, too.
