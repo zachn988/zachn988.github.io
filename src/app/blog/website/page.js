@@ -25,7 +25,7 @@ export default function Article() {
             <p className={styles.post_paragraph}>After some more research, I created another branch using NextJS. I liked the layout functionality
             and the automatic routing. I set up a test page on the github repo and set up github to build the
             static page. This is the current implementation of the website and its work spans
-            dev logs 3 to the <Link href="/blog/website/10-06-25">most recent log.</Link></p>
+            dev logs 3 to the <Link href="/blog/website/03-10-26">most recent log.</Link></p>
             <p className={styles.post_paragraph}>This post was last updated Oct. 13 2025</p>
         </div>
     </div>

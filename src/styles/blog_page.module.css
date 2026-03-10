@@ -82,7 +82,13 @@
 
 .post_title {
     text-indent: 15px;
+    font-weight: bold;
 }
 .post_paragraph {
     text-indent: 15px;
+    margin: 15px;
+}
+
+.post_list {
+    list-style-type: square;;
 }

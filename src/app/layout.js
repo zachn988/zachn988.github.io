@@ -5,7 +5,7 @@ import '@/styles/global.css';
 export default function RootLayout({ children }) {
   return <html lang="en">
     <head>
-        <title>Layout</title>
+        <title>Home</title>
         <meta name="author" content="Zachary Nalepa"></meta>
         <meta name="description" content="My personal portfolio on NextJS and Github Pages"></meta>        
         
@@ -40,19 +40,22 @@ export default function RootLayout({ children }) {
 
                 </div>
             </div>
-            <div className="center">
-                <div className="center_title">
-                    Browser
+            <div className="center_column">
+                <div className="center_box">
+                    <div className="center_title">
+                        Browser
+                    </div>
+                    <div>{ children }</div>
                 </div>
-                <div>{ children }</div>
+                <div className="lorem">
+                    <p className="font_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="font_2">Labore, ea officiis. Unde, reprehenderit incidunt.</p> 
+                    <p className="font_3">Iusto earum, suscipit hic laborum soluta adipisci dolore</p>
+                    <p className="font_4">veritatis voluptatum odio quis necessitatibus maxime, nostrum distinctio.</p>
+                </div>
             </div>
             <div></div>
-            <div className="lorem">
-                <p className="font_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <p className="font_2">Labore, ea officiis. Unde, reprehenderit incidunt.</p> 
-                <p className="font_3">Iusto earum, suscipit hic laborum soluta adipisci dolore</p>
-                <p className="font_4">veritatis voluptatum odio quis necessitatibus maxime, nostrum distinctio.</p>
-            </div>
+            
             
         </div>
     </body>

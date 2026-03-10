@@ -11,6 +11,8 @@ export default function BlogLayout({ children }) {
         <div className="post_border">
             <div>&gt;Personal Website</div>
             <div className={styles.blog_explorer}>
+                <Link href="/blog/website/03-10-26" className={styles.explorer_link} id="project1_child">
+                Dev Log 7</Link>
                 <Link href="/blog/website/10-13-25" className={styles.explorer_link} id="project1_child">
                 Dev Log 6</Link>
                 <Link href="/blog/website/10-09-25" className={styles.explorer_link} id="project1_child">
