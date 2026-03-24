@@ -1,7 +1,38 @@
+"use client";
+
 import Link from "next/link"
 import styles from "@/styles/blog.module.css"
 
 export default function BlogLayout({ children }) {
+    function togglePersonalWebsite() {
+
+        const PW_links = document.querySelectorAll("#project1_child");
+        //console.log(PW_links[0].style.display);
+
+        for (var i = 0; i < PW_links.length; i++) {
+            const el = window.getComputedStyle(PW_links[i]);
+            if (el.getPropertyValue("display") === "block") {
+                PW_links[i].style.display = "none";
+            } else {
+                PW_links[i].style.display = "block";
+            }
+        }
+        return;
+    }
+    function toggleDummyProject() {
+        const DP_links = document.querySelectorAll("#project2_child");
+
+        for (var i = 0; i < DP_links.length; i++) {
+            const el = window.getComputedStyle(DP_links[i]);
+            if (el.getPropertyValue("display") === "block") {
+                DP_links[i].style.display = "none";
+            } else {
+                DP_links[i].style.display = "block";
+            }
+        }
+        return;
+    }
+
     return <div>
         <div className="address_bar">
             <div className="address"><p className="address_line"></p><p className="address_word">Address</p></div>
@@ -9,7 +40,7 @@ export default function BlogLayout({ children }) {
         </div>
         <div className={styles.blog_body}>
         <div className="post_border">
-            <div>&gt;Personal Website</div>
+            <button className={styles.blog_dropdown} onClick={togglePersonalWebsite}><div className={styles.selector_arrow}>&gt;</div>Personal Website</button>
             <div className={styles.blog_explorer}>
                 <Link href="/blog/website/03-10-26" className={styles.explorer_link} id="project1_child">
                 Dev Log 7</Link>
@@ -27,11 +58,11 @@ export default function BlogLayout({ children }) {
                 Dev Log 1</Link>
                 
             </div>
-            <div>&gt;DummyProjectName</div>
+            <button className={styles.blog_dropdown} onClick={toggleDummyProject}><div className={styles.selector_arrow}>&gt;</div>Dummy Project</button>
             <div className={styles.blog_explorer}>
-                <Link href="/blog" className={styles.explorer_link} id="project1_child">
+                <Link href="/blog" className={styles.explorer_link} id="project2_child">
                 Dev Log 2</Link>
-                <Link href="/blog/" className={styles.explorer_link} id="project1_child">
+                <Link href="/blog/" className={styles.explorer_link} id="project2_child">
                 Dev Log 1</Link>
                 
             </div>

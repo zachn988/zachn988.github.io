@@ -48,6 +48,21 @@
 .address_word {
     margin: 0px;
 }
+
+.blog_dropdown {
+    font-family: 'Levi Windows', 'Trebuchet MS';
+    font-size: 16px;
+    padding-left: 0px;
+    text-decoration: underline;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.selector_arrow {
+    display:inline-block;
+    text-decoration: none;
+}
+
 .links {
     flex-grow: 10;
     text-align: left;
@@ -92,6 +107,7 @@
 }
 .explorer_link {
     text-indent: 15px;
+    display: block;
 }
 
 .page_picker {

@@ -25,17 +25,21 @@ export default function Article() {
                 Also research any possible solution or alternative to manually editing layout files to update or add most recent posts.
                 Website will remain static, so I&apos;ll probably have to write a python script.
                 </li>
-                <li>Possibly cap the length of posts and nav for blog pages with overflow scrolling. I&apos;ll have to figure out scroll bar styling
+                <li><s>Possibly cap the length of posts and nav for blog pages with overflow scrolling. I&apos;ll have to figure out scroll bar styling
                 to match the website design.
-                </li>
+                </s></li>
                 <li>Finish projects page. Will have to brainstorm ideas for the final look, too.
                 </li>
             </ul>
 			<p className={styles.post_paragraph}>First item, top-level grid layout. Easy fix, just changed from fixed grid layout to flex layout
                 with nav at 60% width, center at 77% width, and keeping the same margins and borders.
             </p>
-
+            <p className={styles.post_paragraph}>Second item, improving the blog homepage design. Turning the project headers into dropdown selectors
+                was straightforward enough. queryselectors and some javascript was all it took. 
+            </p>
 			<p className={styles.post_paragraph}>
+                For the projects page, I added a basic 3-wide grid of temporary boxes. The spirit of inspiration will help me improve it later when I add
+                projects to the grid.
 			</p>
 		</div>
 	</div>

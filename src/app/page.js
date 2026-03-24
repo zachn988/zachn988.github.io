@@ -6,6 +6,21 @@ export default function Home() {
     <div>
         <div className="address_bar">
             <div className="address"><p className="address_line"></p><p className="address_word">Address</p></div>
+            <p className="links"><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link> &gt; <Link href="/blog/website/03-10-26">Dev Log 7</Link></p>
+        </div>
+            <div className="post_border">
+                <div className="post">
+                    <p className="post_paragraph">Dev Log 7, begins March 10, 2026</p>
+            <p className="post_paragraph">I recently re-enabled onedrive, specifically because I wanted to back up projects, including
+                any gitignored files, like with NextJS node_modules. However, I had forgotten how much onedrive sucks and re-enabling it meant
+                files and folders would be <strong>overwritten</strong> by the old backups, not merged together <strong>and</strong> overwritten
+                files and folders are not moved somewhere or put in the recycle bin, just permanently deleted. I lost original dev logs, notes,
+                and scripts that were not on github. Let this be a warning. <Link href="/blog/website/03-10-26">...</Link> </p>
+            </div>
+        </div>
+        <hr className="post_divider_hr"></hr>
+        <div className="address_bar">
+            <div className="address"><p className="address_line"></p><p className="address_word">Address</p></div>
             <p className="links"><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link> &gt; <Link href="/blog/website/10-13-25">Dev Log 6</Link></p>
         </div>
             <div className="post_border">
@@ -23,25 +38,6 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-        <hr className="post_divider_hr"></hr>
-        <div className="address_bar">
-            <div className="address"><p className="address_line"></p><p className="address_word">Address</p></div>
-            <p className="links"><Link href="/blog">Blog</Link> &gt; <Link href="/blog/website">Personal Website</Link> &gt; <Link href="/blog/website/10-09-25">Dev Log 5</Link></p>
-        </div>
-            <div className="post_border">
-                <div className="post">
-                    <p>Day 6 of working on the website. October 09 2025
-                    </p>
-                    <p>Today I&apos;m building the blog homepage.
-                    </p>
-                    <p>I tried doing an automatic method, with functions finding posts and formatting them into
-                        the blog page, but it didn&apos;t work, and I just want to make progress today. Unfortunately,
-                        that means posts will have to be formatted manually for the time being. I&apos;m not even sure
-                        if I can do functional retrieval as a static website anyways. I don&apos;t think slug directories
-                        are a very static concept. It was worth a shot, though. <Link href="/blog/website/10-09-25">...</Link>
-                    </p>
-            </div>
-        </div>
         <br></br>
     </div>
 

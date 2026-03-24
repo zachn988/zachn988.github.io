@@ -26,7 +26,7 @@ export default function about() {
                     a Google&aposs Firebase backend. The team used an agile development style as a single scrum team. The app was built over
                     the course of six months in a four-person team and the result was a feature-complete social media app.</p>
                     <p>After graduation, Zachary began an internship at Revature as a Java developer, gaining valuable experience within the
-                    Java web development ecosystem, using Maven and Spring to build websockets and API endpoints, as well as Spring&aposs Apache
+                    Java web development ecosystem, using Maven and Spring to build websockets and API endpoints, as well as Spring&apos;s Apache
                     database and Java Database Connector.</p>
                     <p>Zachary is still learning new things and using his skills. You can see his projects at his <a href="https://github.com/zachn988">
                     Github</a> and projects page <Link href="/projects">here</Link>.
